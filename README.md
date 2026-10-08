@@ -69,7 +69,7 @@ Found a bug? Please open an [issue](../../issues) with your PSP model, firmware 
 
 ## Credits & license
 
-*A Place Beyond* — game, art and design: **bcaa777**.
+*A Place Beyond* — game, art and design: **bcaa777**. Using Claude and Astra for development
 The PSP edition is built with the open [PSPSDK toolchain](https://github.com/pspdev); third-party notices are in the
 release zip (`THIRD_PARTY_NOTICES.txt`).
 
