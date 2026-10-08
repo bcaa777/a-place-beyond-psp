@@ -15,9 +15,7 @@ climb, and the night drive over the pass.
 | ![The Pale Expanse](screenshots/02-pale-expanse.png) | ![Blackwater Parish](screenshots/03-blackwater-parish.png) |
 | ![The Vesper Count](screenshots/04-vesper-count.png) | ![The Pale Bell](screenshots/05-pale-bell.png) |
 | ![Down the muzzle](screenshots/06-down-the-muzzle.png) | ![Stage two](screenshots/07-stage-two.png) |
-| ![Stage three: the climb](screenshots/08-stage-three-climb.png) | ![Stage four: the pass](screenshots/09-stage-four-pass.png) |
-
-![Characters](screenshots/10-characters.png)
+| ![Stage three: the climb](screenshots/08-stage-three-climb.png) | ![Stage four: the pass](screenshots/09-stage-four-pass.png) 
 
 ## Features
 
