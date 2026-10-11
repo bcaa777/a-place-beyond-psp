@@ -15,7 +15,9 @@ climb, and the night drive over the pass.
 | ![The Pale Expanse](screenshots/02-pale-expanse.png) | ![Blackwater Parish](screenshots/03-blackwater-parish.png) |
 | ![The Vesper Count](screenshots/04-vesper-count.png) | ![The Pale Bell](screenshots/05-pale-bell.png) |
 | ![Down the muzzle](screenshots/06-down-the-muzzle.png) | ![Stage two](screenshots/07-stage-two.png) |
-| ![Stage three: the climb](screenshots/08-stage-three-climb.png) | ![Stage four: the pass](screenshots/09-stage-four-pass.png) 
+| ![Stage three: the climb](screenshots/08-stage-three-climb.png) | ![Stage four: the pass](screenshots/09-stage-four-pass.png) |
+
+![Characters](screenshots/10-characters.png)
 
 ## Features
 
@@ -27,20 +29,28 @@ climb, and the night drive over the pass.
 
 ## Requirements
 
-- **PSP-2000, PSP-3000 or PSP Go** with custom firmware (PRO, ME or ARK-4).
+- **PSP-2000, PSP-3000 or PSP Go** with custom firmware (PRO, ME, ARK-4 or ARK-5).
   Tested on a PSP-2000 with 6.61 PRO-C. The **PSP-1000 is not supported** (it lacks the extra memory).
-- PS Vita / PS TV with Adrenaline should work (untested).
+- Players report it working on a **PS Vita with Adrenaline** and on Linux handhelds.
 - **PPSSPP** on PC, Android and iOS works too.
 - About 92 MB free on the memory stick.
 
 ## Install
 
-1. Download `A-Place-Beyond-PSP-v0.9.zip` from [Releases](../../releases/latest) and unzip it.
-2. Copy the `PSP` folder to the root of your memory stick, so you have
-   `PSP/GAME/APlaceBeyond/EBOOT.PBP` and the `PSP/GAME/APlaceBeyond/data` folder (24 `.pak` files, all needed).
-3. On the PSP: **Game › Memory Stick › A Place Beyond**. In PPSSPP, open the `EBOOT.PBP`.
+Back up your memory stick first, as with any homebrew.
 
-Updating: copy the new version over the old folder; your save (`data/save.bin`) is kept.
+1. Download the latest zip from [Releases](../../releases/latest) (v0.9.1 or newer, **not** v0.9).
+2. **From a computer (recommended):** unzip it and copy the `APlaceBeyond` folder into `PSP/GAME` on the memory stick.
+   Eject safely before unplugging.
+   **On the PSP with ARK's file manager:** copy the zip into `PSP/GAME`, extract it there, then delete the zip.
+3. You should have `PSP/GAME/APlaceBeyond/EBOOT.PBP` and `PSP/GAME/APlaceBeyond/data/` (24 `.pak` files, all needed).
+4. On the PSP: **Game › Memory Stick › A Place Beyond**. In PPSSPP, open the `EBOOT.PBP`.
+
+**"Corrupted Data" in the XMB** means the folder is incomplete or in the wrong place. This happened with the v0.9 zip
+when it was extracted with ARK's on-PSP unzipper. Remove the folder **from a computer**, then install v0.9.1. Never power
+the PSP off while it is deleting or copying.
+
+Updating: replace the `APlaceBeyond` folder; keep `data/save.bin` if you want your progress.
 
 ## Controls
 
@@ -69,9 +79,9 @@ Found a bug? Please open an [issue](../../issues) with your PSP model, firmware 
 
 ## Credits & license
 
-*A Place Beyond* — game, art and design: **bcaa777**. Using Claude and Astra for development
+*A Place Beyond* — game, art and design: **bcaa777**.
 The PSP edition is built with the open [PSPSDK toolchain](https://github.com/pspdev); third-party notices are in the
 release zip (`THIRD_PARTY_NOTICES.txt`).
 
-The game and all its content are © bcaa777. It is free to download and play — please share a link to this page
+The game and all its content are © bcaa777. Using Claude and Astra for development. It is free to download and play — please share a link to this page
 rather than re-uploading the files.
