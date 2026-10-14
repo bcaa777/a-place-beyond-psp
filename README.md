@@ -55,7 +55,7 @@ when it was extracted with ARK's on-PSP unzipper. Remove the folder **from a com
 the PSP off while it is deleting or copying.
 
 Updating: replace the `APlaceBeyond` folder; keep `data/save.bin` if you want your progress (saves from v0.9 and
-v0.9.1 load in v0.10).
+v0.9.1 load in the latest version).
 
 ## Controls
 
