@@ -3,8 +3,8 @@
 A dark, hand-painted action adventure, ported to the **Sony PSP** from the web game *A Place Beyond*.
 
 Walk the forest road to Blackwater Parish, row the drowned lake, light the lanterns of the Mire, hunt the Vesper Count
-through the city, wake the Pale Bell — then take the four journeys beyond: the dive down the pistol's muzzle, the
-climb, the night drive over the pass, and the dragon's dream.
+through the city, wake the Pale Bell — then take the five journeys beyond: the dive down the pistol's muzzle, the
+climb, the night drive over the pass, the dragon's dream, and the Underparish.
 
 ### ⬇️ [Download the latest release](../../releases/latest)
 
@@ -26,6 +26,7 @@ climb, the night drive over the pass, and the dragon's dream.
 - The whole open world of stage one, with its bosses, quests, shrines and secrets
 - Three journey stages: a twin-stick dive, a parkour climb and a night car race over the pass
 - The dragon's dream: three acts of floating islands, the Nightmare, and dream wings to glide on
+- The Underparish: three circles under a drowned Blackwater, their bosses, the Uncrowned Gate and the hell hound
 - Boss intros, letters on painted paper, and options for brightness, look speed and subtitles
 - Upgrade tree, journal, map and four playable characters
 - The original painted art, music and voice lines
@@ -37,7 +38,7 @@ climb, the night drive over the pass, and the dragon's dream.
   Tested on a PSP-2000 with 6.61 PRO-C. The **PSP-1000 is not supported** (it lacks the extra memory).
 - Players report it working on a **PS Vita with Adrenaline** and on Linux handhelds.
 - **PPSSPP** on PC, Android and iOS works too.
-- About 115 MB free on the memory stick.
+- About 140 MB free on the memory stick.
 
 ## Install
 
@@ -47,7 +48,7 @@ Back up your memory stick first, as with any homebrew.
 2. **From a computer (recommended):** unzip it and copy the `APlaceBeyond` folder into `PSP/GAME` on the memory stick.
    Eject safely before unplugging.
    **On the PSP with ARK's file manager:** copy the zip into `PSP/GAME`, extract it there, then delete the zip.
-3. You should have `PSP/GAME/APlaceBeyond/EBOOT.PBP` and `PSP/GAME/APlaceBeyond/data/` (34 `.pak` files, all needed).
+3. You should have `PSP/GAME/APlaceBeyond/EBOOT.PBP` and `PSP/GAME/APlaceBeyond/data/` (45 `.pak` files, all needed).
 4. On the PSP: **Game › Memory Stick › A Place Beyond**. In PPSSPP, open the `EBOOT.PBP`.
 
 **"Corrupted Data" in the XMB** means the folder is incomplete or in the wrong place. This happened with the v0.9 zip
@@ -55,7 +56,7 @@ when it was extracted with ARK's on-PSP unzipper. Remove the folder **from a com
 the PSP off while it is deleting or copying.
 
 Updating: replace the `APlaceBeyond` folder; keep `data/save.bin` if you want your progress (saves from v0.9 and
-v0.9.1 load in the latest version).
+v0.9.1 load in the latest version; keep a copy, because older versions cannot read a save written by v0.12).
 
 ## Controls
 
@@ -71,7 +72,7 @@ v0.9.1 load in the latest version).
 | Select / hold Select | Upgrade tree / map |
 | Start | Pause: journal, options, map |
 
-On the title screen, △ opens **CHAPTERS** to jump straight into the journey stages or the dream. The release zip includes a cheat
+On the title screen, △ opens **CHAPTERS** to jump straight into the journey stages, the dream or the Underparish. The release zip includes a cheat
 menu (`CHEATS.txt`) for anyone who just wants to look around.
 
 ## Known issues (beta)
