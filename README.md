@@ -6,6 +6,9 @@ Walk the forest road to Blackwater Parish, row the drowned lake, light the lante
 through the city, wake the Pale Bell — then take the five journeys beyond: the dive down the pistol's muzzle, the
 climb, the night drive over the pass, the dragon's dream, and the Underparish.
 
+> **Have a PS Vita?** There's a native Vita edition (960x544, sharper art, the companions) in testing:
+> [A Place Beyond — PS Vita edition](https://github.com/bcaa777/a-place-beyond-psp-vita)
+
 ### ⬇️ [Download the latest release](../../releases/latest)
 
 ![Title screen](screenshots/01-title.png)
@@ -36,7 +39,8 @@ climb, the night drive over the pass, the dragon's dream, and the Underparish.
 
 - **PSP-2000, PSP-3000 or PSP Go** with custom firmware (PRO, ME, ARK-4 or ARK-5).
   Tested on a PSP-2000 with 6.61 PRO-C. The **PSP-1000 is not supported** (it lacks the extra memory).
-- Players report it working on a **PS Vita with Adrenaline** and on Linux handhelds.
+- Players report it working on a **PS Vita with Adrenaline** and on Linux handhelds. For the Vita there is also a
+  [native PS Vita edition](https://github.com/bcaa777/a-place-beyond-psp-vita) in testing.
 - **PPSSPP** on PC, Android and iOS works too.
 - About 140 MB free on the memory stick.
 
@@ -77,7 +81,8 @@ menu (`CHEATS.txt`) for anyone who just wants to look around.
 
 ## Known issues (beta)
 
-- The web version's companions (the party) are not in the PSP edition yet.
+- The web version's companions (the party) are not in the PSP edition (the PSP has no memory for them); the
+  [PS Vita edition](https://github.com/bcaa777/a-place-beyond-psp-vita) has them.
 - The game saves at chimes, doors and the finale; the PSP may pause for a moment while it writes.
 - Stage four sees half as far as the web version, to keep 30 fps on real hardware.
 - The larger areas take a few seconds to load from a real Memory Stick.
