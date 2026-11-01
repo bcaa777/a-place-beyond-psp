@@ -31,6 +31,7 @@ climb, the night drive over the pass, the dragon's dream, and the Underparish.
 - The dragon's dream: three acts of floating islands, the Nightmare, and dream wings to glide on
 - The Underparish: three circles under a drowned Blackwater, their bosses, the Uncrowned Gate and the hell hound
 - Boss intros, letters on painted paper, and options for brightness, look speed and subtitles
+- Seven languages: English, Español, 日本語, 한국어, 简体中文, Українська, Русский (OPTIONS › LANGUAGE)
 - Upgrade tree, journal, map and four playable characters
 - The original painted art, music and voice lines
 - 30 fps on a real PSP-2000
@@ -52,7 +53,7 @@ Back up your memory stick first, as with any homebrew.
 2. **From a computer (recommended):** unzip it and copy the `APlaceBeyond` folder into `PSP/GAME` on the memory stick.
    Eject safely before unplugging.
    **On the PSP with ARK's file manager:** copy the zip into `PSP/GAME`, extract it there, then delete the zip.
-3. You should have `PSP/GAME/APlaceBeyond/EBOOT.PBP` and `PSP/GAME/APlaceBeyond/data/` (45 `.pak` files, all needed).
+3. You should have `PSP/GAME/APlaceBeyond/EBOOT.PBP` and `PSP/GAME/APlaceBeyond/data/` (52 `.pak` files, all needed).
 4. On the PSP: **Game › Memory Stick › A Place Beyond**. In PPSSPP, open the `EBOOT.PBP`.
 
 **"Corrupted Data" in the XMB** means the folder is incomplete or in the wrong place. This happened with the v0.9 zip
@@ -86,6 +87,7 @@ menu (`CHEATS.txt`) for anyone who just wants to look around.
 - The game saves at chimes, doors and the finale; the PSP may pause for a moment while it writes.
 - Stage four sees half as far as the web version, to keep 30 fps on real hardware.
 - The larger areas take a few seconds to load from a real Memory Stick.
+- On Blackwater lake the frame rate can still dip, or the game can pause for a moment, now and then.
 
 Found a bug? Please open an [issue](../../issues) with your PSP model, firmware and what happened.
 
