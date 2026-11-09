@@ -1,6 +1,8 @@
 # A Place Beyond — PSP edition
 
-A dark, hand-painted action adventure, ported to the **Sony PSP** from the web game *A Place Beyond*.
+A dark, hand-painted action adventure, ported to the **Sony PSP** from the web game
+[*A Place Beyond*](https://bcaa777.itch.io/a-place-beyond). The original is on itch.io and plays free in your browser;
+it is still in active development, so it is always the newest version, and this PSP edition follows it.
 
 Walk the forest road to Blackwater Parish, row the drowned lake, light the lanterns of the Mire, hunt the Vesper Count
 through the city, wake the Pale Bell — then take the five journeys beyond: the dive down the pistol's muzzle, the
@@ -9,8 +11,9 @@ climb, the night drive over the pass, the dragon's dream, and the Underparish.
 > **Have a PS Vita?** There's a native Vita edition (960x544, sharper art, the companions) in testing:
 > [A Place Beyond — PS Vita edition](https://github.com/bcaa777/a-place-beyond-psp-vita)
 
-> **New from the same world: Beyond Hollow.** A 2.5D metroidvania where you play the companion dog, now on the PSP
-> too: [about Beyond Hollow](#beyond-hollow--psp-edition) · [download v0.9.1](../../releases/tag/beyond-hollow-v0.9.1)
+> **New from the same world: Beyond Hollow.** A 2.5D metroidvania where you play the companion dog. Play the original
+> free in your browser on [itch.io](https://bcaa777.itch.io/beyondhollow), and now on the PSP too:
+> [about the PSP edition](#beyond-hollow--psp-edition) · [download v0.9.1](../../releases/tag/beyond-hollow-v0.9.1)
 
 ### ⬇️ [Download the latest release](../../releases/latest)
 
@@ -100,6 +103,11 @@ A dark, hand-painted 2.5D metroidvania set in the world of *A Place Beyond*, por
 *Beyond Hollow*. You play the companion dog: bite, dash and bark through six areas, rest at the lanterns, bind what the
 dog remembers, and face the five bosses waiting below. It is a separate game, with its own `BeyondHollow` folder and
 its own save.
+
+**The original is on itch.io:** [bcaa777.itch.io/beyondhollow](https://bcaa777.itch.io/beyondhollow), free in your
+browser. The web game is where Beyond Hollow is made, so it is always the newest version; its itch.io release is a
+demo that ends after the Bellkeeper. This PSP edition follows the web version a step behind, with the whole
+campaign.
 
 ### ⬇️ [Download Beyond Hollow (PSP) v0.9.1](../../releases/tag/beyond-hollow-v0.9.1)
 
