@@ -9,6 +9,9 @@ climb, the night drive over the pass, the dragon's dream, and the Underparish.
 > **Have a PS Vita?** There's a native Vita edition (960x544, sharper art, the companions) in testing:
 > [A Place Beyond — PS Vita edition](https://github.com/bcaa777/a-place-beyond-psp-vita)
 
+> **New from the same world: Beyond Hollow.** A 2.5D metroidvania where you play the companion dog, now on the PSP
+> too: [about Beyond Hollow](#beyond-hollow--psp-edition) · [download v0.9.1](../../releases/tag/beyond-hollow-v0.9.1)
+
 ### ⬇️ [Download the latest release](../../releases/latest)
 
 ![Title screen](screenshots/01-title.png)
@@ -91,11 +94,45 @@ menu (`CHEATS.txt`) for anyone who just wants to look around.
 
 Found a bug? Please open an [issue](../../issues) with your PSP model, firmware and what happened.
 
+## Beyond Hollow — PSP edition
+
+A dark, hand-painted 2.5D metroidvania set in the world of *A Place Beyond*, ported to the PSP from the web game
+*Beyond Hollow*. You play the companion dog: bite, dash and bark through six areas, rest at the lanterns, bind what the
+dog remembers, and face the five bosses waiting below. It is a separate game, with its own `BeyondHollow` folder and
+its own save.
+
+### ⬇️ [Download Beyond Hollow (PSP) v0.9.1](../../releases/tag/beyond-hollow-v0.9.1)
+
+| | |
+|---|---|
+| ![The fen](screenshots/beyond-hollow/01-fen-cliff.png) | ![The Lantern Gate](screenshots/beyond-hollow/02-lantern-gate.png) |
+| ![The Bellkeeper](screenshots/beyond-hollow/03-the-bellkeeper.png) | ![The kiln](screenshots/beyond-hollow/04-crown-kiln.png) |
+| ![The Hollow Trunk](screenshots/beyond-hollow/05-hollow-trunk.png) | ![Bonds](screenshots/beyond-hollow/06-bonds.png) |
+
+- 56 rooms in six areas, with doors that open as you find new abilities, items and the violet seal
+- Five bosses with phases, and boss trials to fight them on their own
+- Bonds: a tree of 17 memories to bind at the lantern refuges
+- Cutscenes, and the web version's sound and music
+- A GRAPHICS page (LEAN to FULL), an FPS counter, button remapping and assist options
+- 30 fps on a real PSP-2000
+
+**Requirements:** PSP-2000, PSP-3000 or PSP Go with custom firmware (the PSP-1000 is not supported), or PPSSPP. About
+35 MB free.
+
+**Install:** unzip and copy the `BeyondHollow` folder into `PSP/GAME`. You should have
+`PSP/GAME/BeyondHollow/EBOOT.PBP` and `PSP/GAME/BeyondHollow/data/` (13 `.pak` files). When updating, keep
+`data/save.bin` (your walk), `data/graphics.bin` and `data/options.bin` (your settings).
+
+**Controls** (change them on the CONTROLS page): stick / D-pad move and aim (Up rests at a lantern), ✕ jump, □ bite,
+○ dash, △ soul spell, R bark, hold L mend, L + R for the thread flight, Select map, Start pause.
+
+The web version is still changing; this edition follows it and will be updated.
+
 ## Credits & license
 
-*A Place Beyond* — game, art and design: **bcaa777**.
-The PSP edition is built with the open [PSPSDK toolchain](https://github.com/pspdev); third-party notices are in the
+*A Place Beyond* and *Beyond Hollow* — game, art and design: **bcaa777**.
+The PSP editions are built with the open [PSPSDK toolchain](https://github.com/pspdev); third-party notices are in the
 release zip (`THIRD_PARTY_NOTICES.txt`).
 
-The game and all its content are © bcaa777. It is free to download and play — please share a link to this page
+The games and all their content are © bcaa777. They are free to download and play — please share a link to this page
 rather than re-uploading the files.
