@@ -128,6 +128,9 @@ its own save.
 
 The web version is still changing; this edition follows it and will be updated.
 
+**AI use:** some sprite sheets were generated in bcaa777's drawing style, about 30 of the game's sounds were made
+with ElevenLabs, and the code (this PSP port included) was written with AI help.
+
 ## Credits & license
 
 *A Place Beyond* and *Beyond Hollow* — game, art and design: **bcaa777**.
